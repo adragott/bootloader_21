@@ -18,7 +18,7 @@ run: out
 out: $(OBJS)
 	$(CC) $(OBJS) -o out $(LIBS)
 
-main.o: $(SRC)main.c $(INC)main.h
+main.o: $(SRC)main.c
 	$(CC) $(CFLAGS) $(SRC)main.c
 
 i2c.o: $(SRC)i2c.c $(INC)i2c.h

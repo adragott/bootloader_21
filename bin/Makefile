@@ -1,5 +1,5 @@
 CC=gcc
-CFLAGS=-c -I$(INC) -I$(CFG) -w -std=c99 -Wall
+CFLAGS=-c -I$(INC) -I$(SRC) -I$(CFG) -w -std=c99 -Wall 
 
 INC=../src/
 SRC=../inc/

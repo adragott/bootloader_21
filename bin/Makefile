@@ -1,4 +1,4 @@
-CC=
+CC=gcc
 CFLAGS=-c -I$(INC) -I$(CFG) -w -std=c99 -Wall
 
 INC=../src/

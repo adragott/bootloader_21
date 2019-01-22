@@ -27,6 +27,8 @@ pi2c.o: $(SRC)pi2c.c $(INC)pi2c.h
 project.o: $(SRC)project.c $(INC)project.h
 	$(CC) $(CFLAGS) $(SRC)project.c
 
+d21.o: $(SRC)d21.c $(INC)d21.h
+	$(CC) $(CFLAGS) $(SRC)d21.c
 clean:
 	@echo "Cleaning..."
 	rm *.o out

@@ -8,6 +8,7 @@ typedef struct pi2c_device
 	uint8_t addr;
 	uint8_t* data;
 	uint8_t data_length;
+	uint8_t max_data_length;
 }pi2c_device;
 
 

@@ -11,7 +11,7 @@ OBJS=main.o pi2c.o project.o
 all: run
 
 run: out
-	./out
+	@./out
 
 .PHONY: all run
 

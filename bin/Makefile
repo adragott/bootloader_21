@@ -6,7 +6,7 @@ SRC=../src/
 CFG=../cfg/
 
 LIBS=
-OBJS=main.o i2c.o project.o
+OBJS=main.o pi2c.o project.o
 
 all: run
 
@@ -21,8 +21,8 @@ out: $(OBJS)
 main.o: $(SRC)main.c
 	$(CC) $(CFLAGS) $(SRC)main.c
 
-i2c.o: $(SRC)i2c.c $(INC)i2c.h
-	$(CC) $(CFLAGS) $(SRC)i2c.c
+pi2c.o: $(SRC)pi2c.c $(INC)pi2c.h
+	$(CC) $(CFLAGS) $(SRC)pi2c.c
 
 project.o: $(SRC)project.c $(INC)project.h
 	$(CC) $(CFLAGS) $(SRC)project.c

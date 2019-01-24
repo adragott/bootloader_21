@@ -7,4 +7,7 @@
 
 //I2C Master Config
 
+//Register map
+#define D21_ID_TEST 0x21
+#define D21_FIRMWARE_SIZE 0x22
 #endif

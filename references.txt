@@ -1,0 +1,2 @@
+https://borkedlabs.com/blog/2014/06-24-asf-samd20samd21-eeprom-emulation/
+http://ww1.microchip.com/downloads/en/AppNotes/Atmel-42125-SAM-EEPROM-Emulator-Service-EEPROM_ApplicationNote_AT03265.pdf
